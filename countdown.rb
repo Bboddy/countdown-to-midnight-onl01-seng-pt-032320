@@ -11,4 +11,5 @@ def countdown_with_sleep(s)
     puts 0 + "SECOND(S)!"
     s = s - 1
     sleep(1)
+  end
 end
