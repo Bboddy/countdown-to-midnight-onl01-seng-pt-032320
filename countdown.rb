@@ -7,7 +7,6 @@ def countdown(n)
   end
   if n == 0
     return "HAPPY NEW YEAR!"
-    puts "HAPPY NEW YEAR!"
   end
 end
 
@@ -19,6 +18,5 @@ def countdown_with_sleep(n)
   end
   if n == 0
     return "HAPPY NEW YEAR!"
-    puts "HAPPY NEW YEAR!"
   end
 end
