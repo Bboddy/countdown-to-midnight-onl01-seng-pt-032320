@@ -17,6 +17,6 @@ def countdown_with_sleep(n)
     sleep(1)
   end
   if n == 0
-    puts "HAPPY NEW YEAR!"
+    puts "#{n} HAPPY NEW YEAR!"
   end
 end
