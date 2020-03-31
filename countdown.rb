@@ -6,7 +6,8 @@ def countdown(s)
     s = s - 1
   end
   if s == 1
-    puts ""
+    puts "HAPPY NEW YEAR!"
+  end
 end
 
 def countdown_with_sleep(s)
