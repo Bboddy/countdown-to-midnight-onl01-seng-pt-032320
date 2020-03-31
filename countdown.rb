@@ -1,22 +1,22 @@
 #write your code here
 
-def countdown(s)
-  while s > 1
+def countdown(n)
+  while n > 1
     puts 0 + "SECOND(S)!"
-    s = s - 1
+    n = n - 1
   end
-  if s == 1
+  if n == 1
     puts "HAPPY NEW YEAR!"
   end
 end
 
-def countdown_with_sleep(s)
-  while s > 1
+def countdown_with_sleep(n)
+  while n > 1
     puts 0 + "SECOND(S)!"
-    s = s - 1
+    n = n - 1
     sleep(1)
   end
-  if s == 1
+  if n == 1
     puts "HAPPY NEW YEAR!"
   end
 end
